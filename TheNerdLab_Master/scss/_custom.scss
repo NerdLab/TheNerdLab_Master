@@ -1,0 +1,31 @@
+.header-content {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+}
+.body-content {
+  background-color: $dark-navy;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.menu-icon,
+.menu-icon:hover {
+  width: rem-calc(100);
+  height: rem-calc(100);
+  margin-top: rem-calc(25);
+  &::after {
+    background-color: $white;
+    height: rem-calc(8);
+    box-shadow: 0 28px 0 $white, 0 14px 0 $white;
+  }
+}
+.logo-position {
+  background-color: transparent;
+  position: absolute;
+  top: 10px;
+  left: rem-calc(460);
+}
+.button-layout{
+}
